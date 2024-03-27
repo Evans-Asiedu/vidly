@@ -38,7 +38,7 @@ class Movies extends Component {
 
     return (
       <React.Fragment>
-        <p className="pb-1">Showing {count} movies in the database</p>
+        <p className="pb-1">Showing {movies.length} movies in the database</p>
         <table className="table">
           <thead>
             <tr>
